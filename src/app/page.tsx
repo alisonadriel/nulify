@@ -6,15 +6,15 @@ export default function Home() {
         <div className="flex flex-1">
         <aside className="w-72 bg-zinc-950 p-6">
           <nav className="space-y-4">
-            <a href="" className="flex itens-center gap-2 text-xs font-semibold text-zinc-100">
+            <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-100">
               <HomeScreen/>
               Home
             </a>
-            <a href=""className="flex itens-center gap-2 text-xs font-semibold text-zinc-100">
+            <a href=""className="flex items-center gap-3 text-sm font-semibold text-zinc-100">
             <Search/>
               Search
             </a>
-            <a href=""className="flex itens-center gap-2 text-xs font-semibold text-zinc-100">
+            <a href=""className="flex items-center gap-3 text-sm font-semibold text-zinc-100">
               <Disc/>
               Libary
             </a>
