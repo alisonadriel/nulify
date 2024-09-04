@@ -31,12 +31,14 @@ export default function Home() {
                <Library/> Playlists </h1>
              </div>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100' >Self-Tilted</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Vessel</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Blurryface</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Trench</a>
-            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Scaled and Icy</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Clancy</a>
           </nav>
         </aside>
+
+        <h1 className='font-semibold text-3xl mt-10'>Home</h1>
         <main className="flex-1 p-6"></main>
         </div>
         <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
