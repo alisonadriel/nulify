@@ -52,27 +52,27 @@ export default function Home() {
 
         <div className='grid grid-cols-3 gap-4'>
           <a href='https://open.spotify.com/album/30H0cGghxhBJ93v4h28XEt?si=IQqkahZ3S6CwGGiICpprsg' target='blank' className='bg-white/10 rounded font-normal flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors'>
-          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum do cantor The Kid Laroi' ></Image>
+          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
           <strong>THE FIRST TIME</strong>
           </a>
           <a href='https://open.spotify.com/album/30H0cGghxhBJ93v4h28XEt?si=IQqkahZ3S6CwGGiICpprsg' target='blank' className='bg-white/10 rounded font-normal flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors'>
-          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum do cantor The Kid Laroi' ></Image>
+          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
           <strong>THE FIRST TIME</strong>
           </a>
           <a href='https://open.spotify.com/album/30H0cGghxhBJ93v4h28XEt?si=IQqkahZ3S6CwGGiICpprsg' target='blank' className='bg-white/10 rounded font-normal flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors'>
-          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum do cantor The Kid Laroi' ></Image>
+          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
           <strong>THE FIRST TIME</strong>
           </a>
           <a href='https://open.spotify.com/album/30H0cGghxhBJ93v4h28XEt?si=IQqkahZ3S6CwGGiICpprsg' target='blank' className='bg-white/10 rounded font-normal flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors'>
-          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum do cantor The Kid Laroi' ></Image>
+          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
           <strong>THE FIRST TIME</strong>
           </a>
           <a href='https://open.spotify.com/album/30H0cGghxhBJ93v4h28XEt?si=IQqkahZ3S6CwGGiICpprsg' target='blank' className='bg-white/10 rounded font-normal flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors'>
-          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum do cantor The Kid Laroi' ></Image>
+          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
           <strong>THE FIRST TIME</strong>
           </a>
           <a href='https://open.spotify.com/album/30H0cGghxhBJ93v4h28XEt?si=IQqkahZ3S6CwGGiICpprsg' target='blank' className='bg-white/10 rounded font-normal flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors'>
-          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum do cantor The Kid Laroi' ></Image>
+          <Image src="/tkl.jpg" width={104} height={104} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
           <strong>THE FIRST TIME</strong>
           </a>
         </div>
