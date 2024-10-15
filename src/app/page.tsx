@@ -123,12 +123,13 @@ export default function Home() {
         </div>
         <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
           <div className='flex items-center gap-2'>
-          <Image src="/tkl.jpg" width={80} height={80} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
-          </div>
+          <Image src="/tkl.jpg" width={64} height={64} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
           <div className='flex flex-col gap-1'>
-          <strong>BABY I'M BACK</strong>
-          <span>The Kid LAROI</span>
+          <strong className='font-semibold'>BABY I'M BACK</strong>
+          <span className='text-sm text-zinc-400'>The Kid LAROI</span>
           </div>
+          </div>
+         
           
           <div>
 
