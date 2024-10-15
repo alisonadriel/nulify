@@ -1,4 +1,4 @@
-import {Home as HomeScreen, AudioLines, Play, Search, Disc, Library, ChevronLeft, ChevronRight} from 'lucide-react'
+import {Home as HomeScreen, AudioLines, Search, Disc, Library, ChevronLeft, ChevronRight} from 'lucide-react'
 import Image from 'next/image';
 
 
@@ -94,10 +94,48 @@ export default function Home() {
             </button>
           </a>
         </div>
+
+        <h2 className='font-extralight text-2xl mt-5 mb-4'>You might like</h2>
+
+        <div className='grid grid-cols-8 gap-4 mt-4'>
+          <a href="" className='bg-white/5 p-3 rounded-md hover:bg-white/10'>
+          <Image src="/fck-love.jpg" className='w-full' width={120} height={120} alt='Capa do álbum Trench da banda Twenty One Pilots' ></Image>
+          <strong className='font-semibold flex flex-col gap-2 pt-1'>F*CK LOVE</strong>
+          <span className='text-sm text-zinc-500'>The Kid LAROI</span>
+          </a>
+          <a href="" className='bg-white/5 p-3 rounded-md hover:bg-white/10'>
+          <Image src="/fck-love.jpg" className='w-full' width={120} height={120} alt='Capa do álbum Trench da banda Twenty One Pilots' ></Image>
+          <strong className='font-semibold flex flex-col gap-2 pt-1'>F*CK LOVE</strong>
+          <span className='text-sm text-zinc-500'>The Kid LAROI</span>
+          </a>
+          <a href="" className='bg-white/5 p-3 rounded-md hover:bg-white/10'>
+          <Image src="/fck-love.jpg" className='w-full' width={120} height={120} alt='Capa do álbum Trench da banda Twenty One Pilots' ></Image>
+          <strong className='font-semibold flex flex-col gap-2 pt-1'>F*CK LOVE</strong>
+          <span className='text-sm text-zinc-500'>The Kid LAROI</span>
+          </a>
+          <a href="" className='bg-white/5 p-3 rounded-md hover:bg-white/10'>
+          <Image src="/fck-love.jpg" className='w-full' width={120} height={120} alt='Capa do álbum Trench da banda Twenty One Pilots' ></Image>
+          <strong className='font-semibold flex flex-col gap-2 pt-1'>F*CK LOVE</strong>
+          <span className='text-sm text-zinc-500'>The Kid LAROI</span>
+          </a>
+        </div>
         </main>
         </div>
-        <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-          footer
+        <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+          <div className='flex items-center gap-2'>
+          <Image src="/tkl.jpg" width={80} height={80} alt='Capa do álbum THE FRIST TIME do cantor The Kid Laroi' ></Image>
+          </div>
+          <div className='flex flex-col gap-1'>
+          <strong>BABY I'M BACK</strong>
+          <span>The Kid LAROI</span>
+          </div>
+          
+          <div>
+
+          </div>
+          <div>
+            
+          </div>
         </footer>
       </div>
   )
