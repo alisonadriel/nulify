@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Home as HomeScreen, Search, Disc, Library } from "lucide-react"
+import { Home as HomeScreen, Search, Disc, Library, Menu } from "lucide-react"
+import { MenuNav } from "./MenuNav";
 
 export function SideBar(){
 
@@ -8,21 +9,7 @@ export function SideBar(){
     <div className='flex items-center mb-6' >
     <Image src="/nulify-logo.png" width={40} height={30} alt="nulify-icon-logo"/>
     </div>
-    <nav className="space-y-5">
-      <a href="" className=" flex items-center gap-3 text-sm font-light text-zinc hover:text-zinc-100">
-        <HomeScreen/>
-        Home
-      </a>
-      <a href=""className="flex items-center gap-3 text-sm font-light text-zinc-200 hover:text-zinc-100">
-      <Search/>
-        Search
-      </a>
-      <a href=""className="flex items-center gap-3 text-sm font-light text-zinc-200 hover:text-zinc-100">
-        <Disc/>
-        Libary
-      </a>
-    </nav>
-
+    <MenuNav/>
     <nav className='mt-10 pt-10  flex flex-col gap-2'>
        <div className='flex items-center gap-2'>
        <h1 className=' font-light flex gap-1 items-center text-[16px] text-zinc-300 mt-3'>
